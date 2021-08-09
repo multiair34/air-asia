@@ -9,6 +9,8 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
+    background-color: #001821;
+    color: #FFFFFF;
 }
 
 .wrapper {
@@ -20,18 +22,17 @@ body {
 }
 
 .header {
-    display: inline-block;
+    display: block;
     text-align: center;
-    background-color: brown; /* Потом убрать*/
 }
 
 .nav-menu {
     display: inline-block;
-    vertical-align: center;
+    vertical-align: top;
 }
 
 .nav-menu__list {
-    display: inline-block;
+    display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -47,6 +48,10 @@ a.nav-menu__link{
     color: #FFFFFF;
 }
 
+.logo {
+    vertical-align: top; /* посмотреть тут*/
+}
+
 
 .contacts{
     display: inline-block;
@@ -54,7 +59,7 @@ a.nav-menu__link{
 }
 
 .contacts__phone{ 
-    display: inline-block;
+    display: block;
     margin-left: 522px;
     color: #FFFFFF;
     font-size: 26px;
@@ -71,19 +76,23 @@ a.nav-menu__link{
 }
 
 .contacts__hover {
+    display: inline-block;
     color: #1E1F20;
     background: #EDEDED;
-    position: absolute;
-    display: block;
-    left: 999px;
+    position: relative;
+    text-align: center;
     font-size: 13px;
     line-height: 21px;
+    width: 160px;
+    height: 80px;
+
 }
 
 .contacts__time {
     display: block;
-    padding: 0px 19px 0px 19px;
+    padding: 22px 19px 0px 19px;
     font-weight: 700;
+    
 }
 
 .contacts__time_wight_bold{
