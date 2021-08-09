@@ -28,16 +28,18 @@ body {
 
 .nav-menu {
     display: inline-block;
-    vertical-align: top;
+    
 }
 
 .nav-menu__list {
     display: inline-block;
+    position: relative;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     font-style: normal;
-    padding: 0;
+    right: 75px;
+    bottom: 5px;
 }
 
 .nav-menu__item {
@@ -52,10 +54,12 @@ a.nav-menu__link{
 
 .logo {
     display: inline-block;
-    vertical-align: top; /* посмотреть тут*/
     width: 85px;
     height: 36px;
-    margin-right: 79px;
+    position: relative;
+    right: 112px;
+    
+    
 }
 
 
