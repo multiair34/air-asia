@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    width: 900px;
+    width: 1920px;
     margin: 0 auto;
 }
 
@@ -38,13 +38,13 @@ body {
     font-size: 14px;
     line-height: 19px;
     font-style: normal;
-    right: 75px;
-    bottom: 5px;
+    left: 425px;
+    bottom: 76px;
 }
 
 .nav-menu__item {
     display: inline-block;
-    margin-right: 54px;
+    margin-right: 50px;
     padding: 0;
 }
 
@@ -57,17 +57,14 @@ a.nav-menu__link{
     width: 85px;
     height: 36px;
     position: relative;
-    right: 112px;
-    
-    
+    left: 390px;
+    bottom: 68px;
 }
 
 
 .contacts{
     display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 20px;
+    
 }
 
 .contacts__phone{ 
@@ -76,6 +73,8 @@ a.nav-menu__link{
     color: #FFFFFF;
     font-size: 26px;
     line-height: 35px;
+    left: 818px;
+    position: absolute;
 }
 
 .contacts__work-time {
@@ -85,6 +84,8 @@ a.nav-menu__link{
     line-height: 20px;
     text-decoration-line: underline;
     color: #FFFFFF;
+    margin-left: 925px;
+    margin-top: 28px;
 }
 
 .contacts__hover {
@@ -97,7 +98,8 @@ a.nav-menu__link{
     line-height: 21px;
     width: 160px;
     height: 80px;
-
+    mix-blend-mode: normal;
+    opacity: 0.8;
 }
 
 .contacts__time {
@@ -109,6 +111,186 @@ a.nav-menu__link{
 
 .contacts__time_wight_bold{
     display: block;
-    padding: 0px 19px 0px 19px;
+    padding: 0px 28px 0px 19px;
     font-weight: 600;
+    
 }
+
+.welcome-text {
+    position: absolute;
+    width: 511px;
+    height: 333px;
+    left: 390px;
+    top: 196px;
+}
+
+.welcome-text__title {
+    font-size: 72px;
+    line-height: 98px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+p.text {
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    position: relative;
+    top: 17px;
+    right: 0px;
+    background: #F5170E;
+    color: #FFFFFF;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 35px;
+    width: 168px;
+    height: 55px;
+    line-height: 19px;
+}
+
+.offer {
+    position: absolute;
+    width: 1140px;
+    left: 392px;
+    top: 745px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.main-title {
+    margin-bottom: 0;
+}
+
+.offer__icon {
+    position: relative;
+    top: 3px;
+    left: 4px;    
+}
+
+.offer__list {
+    display: -webkit-inline-box; 
+    margin: 0;
+    list-style-type: none;
+    width: 362px;
+    padding: 0;
+}
+
+.offer__item {
+    background-color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 51px;
+    float: right;
+    width: 362px;
+    position: relative;
+    right: 35px;
+    border-radius: 5px 5px 0 0;
+}
+
+.offer__img {
+    display: block;
+    width: 362px;
+    height: 144px;
+    border-radius: 5px 5px 0 0;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 33px;
+    margin: 32px 0 0 25px;
+    padding: 0 0 0px 0;
+}
+
+.offer__tour-info {
+    font-size: 16px;
+    color: #666666;
+    /*position: relative;*/
+}
+
+.offer__tour-content {
+    display: inline-block;
+}
+
+.offer__tour-img1 {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+   /* position: ;
+    left: 30px;
+    top: 22px;*/
+    margin-top: 22px;
+    margin-left: 28px;
+}
+
+.offer__tour-img2 {
+    display: inline-block;
+    width: 36px;
+    height: 26px;
+    position: relative;
+    left: 3px;
+    margin: 0;
+    margin-left: 28px;
+}
+
+.offer__tour-text1 {
+    display: inline-block;
+    padding-top: 0px;
+    position: relative;
+    bottom: 6px;
+    left: 8px;
+    margin: 0;
+}
+
+.offer__tour-text2 {
+    display: inline-block;
+    padding-top: 8px;
+    position: relative;
+    bottom: 6px;
+    left: 8px;
+    margin: 0;
+}
+
+.offer__info {
+    color: #303030;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 22px 16px 0 22px;
+}
+
+.btn_type_short {
+    color: #F5170E;
+    background: #FFFFFF;
+    display: block;
+    width: 135px;
+    height: 55px;
+    margin-bottom: 43px;
+    margin-left: 27px;
+    margin-top: 9px;
+    border: 1px solid #F5170E;
+    box-sizing: border-box;
+    border-radius: 35px
+
+}
+
+.btn_type_short:hover {
+    color: #FFFFFF;
+    background: #F5170E;
+}
+
