@@ -442,3 +442,141 @@ h3 {
     border: 6px solid #FFFFFF;
     border-radius: 50%;
 }
+
+.about-us {
+    display: inline-block;
+    width: 1140px;
+    margin: 0;
+    position: absolute;
+    top: 1800px;
+}
+
+.about-us__img {
+    display: inline-block;
+    float: left;
+    width: 490px;
+    height: 505px;
+    border-radius: 5px;
+    position: relative;
+    top: 375px;
+    right: 30px;
+}
+
+.about-us__img-text {
+    position: absolute;
+    width: 785px;
+    height: 455px;
+    top: 472px;
+    right: 30px;
+}
+
+.about-us__title {
+    position: relative;
+    top: 510px;
+    right: 85px;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+.about-us__text {
+    font-size: 16px;
+    line-height: 27px;
+    color: #060606;
+    position: relative;
+    padding-top: 650px;
+    left: 405px;
+    bottom: 115px;
+    width: 502px;
+    text-align: left;
+}
+
+.btn__about-us {
+    position: absolute;
+    left: 405px;
+    top: 805px;
+}
+
+.footer {
+    width: 1140px;
+    display: block;
+    position: absolute;
+    top: 2800px;
+}
+
+.footer__border {
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.1;  
+}
+
+.footer .logo {
+    display: inline-block;
+    position: relative;
+    right: 70px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.footer .nav-menu {
+    display: inline-block;
+}
+
+.footer .nav-menu__list {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer__nav-menu-item {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    padding-right: 54px;
+    right: 30px;
+}
+
+.footer .nav-menu__link {
+    display: inline-block;
+    
+}
+
+.socials {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.socials__item {
+    display: inline-block;
+}
+
+.socials__link {
+    margin-left: 00px;
+    padding-left: 10px;
+}
+
+.contacts-foot {
+    display: inline-block;
+    /*margin-left: 93px;
+    margin-top: 25px;*/
+    vertical-align: middle;
+    margin-bottom: 25px;
+}
+
+.contacts-foot__text {
+    color: #9A9A9A;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-left: 93px;
+}
+
+.contacts-foot__phone {
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 20px;
+    margin-left: 65px;
+
+}
