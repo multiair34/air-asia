@@ -33,22 +33,22 @@ h1, h2, h3, h4 {
 .container{
     margin: 0 auto;
     width: 1140px;
-}
+}*/
 
-/*.header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 120px;
     margin-bottom: 90px;
-}*/
+}
 
-/*.logo__img {
+.logo__img {
     width: 85px;
     height: 36px;
-}*/
+}
 
-/*.nav-menu {
+.nav-menu {
     display: flex;
     flex-basis: 690px;
 }
@@ -71,9 +71,9 @@ h1, h2, h3, h4 {
 
 .nav-menu__link:hover {
     color: #DA0100;
-}*/
+}
 
-/*.contacts {
+.contacts {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -97,7 +97,7 @@ h1, h2, h3, h4 {
     line-height: 15px;
 }*/
 
-/*.hero__text-section {
+.hero__text-section {
     max-width: 515px;
     display: flex;
     flex-direction: column;
@@ -119,9 +119,9 @@ h1, h2, h3, h4 {
 
 .hero {
     margin-bottom: 243px;
-}*/
+}
 
-/* .btn {
+.btn {
     font-size: 14px;
     background: #F5170E;
     border-radius: 35px;
@@ -147,9 +147,9 @@ h1, h2, h3, h4 {
 .btn_type_short:hover {
     background: #F5170E;
     color: #FFFFFF;
-} */
+}
 
-/* .offer {
+.offer {
     margin-bottom: 127px;
 } */
 
@@ -157,9 +157,9 @@ h1, h2, h3, h4 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 50px;
-}
+}*/
 
-/* .offer__list {
+.offer__list {
     display: flex;
     justify-content: space-around;
 }
@@ -227,7 +227,7 @@ h1, h2, h3, h4 {
 
 
 
-/* .news__list {
+.news__list {
     display: flex;
     margin-bottom: 50px;
     justify-content: space-around;
@@ -291,7 +291,7 @@ h1, h2, h3, h4 {
     padding-bottom: 31px;
 } */
 
-/* .pagination {
+.pagination {
     display: flex;
     margin-bottom: 125px;
     align-items: baseline;
@@ -326,7 +326,7 @@ h1, h2, h3, h4 {
     padding-bottom: 20px;
 } */
 
-/* .about-us {
+.about-us {
     display: flex;
 }
 
@@ -371,9 +371,9 @@ h1, h2, h3, h4 {
 
 p {
     margin-top: 0;
-}
+} */
 
-/* .footer-container__content {
+.footer-container__content {
     border-top: 1px  solid #FFFFFF;
     opacity: 0.1;
     
@@ -394,7 +394,7 @@ p {
 
 
 
-/* .socials__item {
+.socials__item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
@@ -415,7 +415,7 @@ p {
     display: flex;
     position: relative;
 }
- */
+
 .main-page-wrapper {
 
     width: auto;

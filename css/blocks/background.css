@@ -1,0 +1,6 @@
+.main-page-wrapper {
+
+    width: auto;
+    background: url(https://github.com/multiair34/air-asia/blob/main/img/1.png?raw=true) center top no-repeat, url(https://github.com/multiair34/air-asia/blob/main/img/2.png?raw=true)  center bottom 165px no-repeat;
+    overflow: hidden;
+}
