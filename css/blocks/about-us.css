@@ -1,0 +1,43 @@
+.about-us {
+    display: flex;
+}
+
+.about-us::before {
+    content: "";
+    width: 490px;
+    height: 505px;
+    background: url(https://github.com/multiair34/air-asia/blob/main/img/gates.png?raw=true) center center / cover no-repeat;
+    border-radius: 5px;
+}
+
+.about-us__wrap {
+    background: url('https://github.com/multiair34/air-asia/blob/main/img/mountains.png?raw=true')  center center / cover no-repeat;
+    padding: 68px 202px 164px 81px;
+    width: 785px;
+    height: 455px;
+    margin-left: -140px;
+    margin-top: 95px;
+}
+
+.about-us__title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 37px;
+}
+
+.about-us__text {
+    color: #060606;
+    margin-bottom: 70px;
+}
+
+.about-us__text p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.about-us__text p:last-child {
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,23 @@
+.hero__text-section {
+    max-width: 515px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 98px;
+    margin-bottom: 28px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero {
+    margin-bottom: 243px;
+}
