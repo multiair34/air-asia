@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/layout/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Услуги</title>
 </head>
 <body>
-    <div class="wrapper">
-        <section class="hero">
+    <div class="wrapper wrapper__services">
+        <section class="hero hero__services">
             <div class="container">
-                <header class="header">
+                <header class="header header__services">
                     <a href="#" class="logo">
                         <img src="https://github.com/multiair34/air-asia/blob/main/img/logo.png?raw=true" alt="logo-AirAsia" class="logo__img">
                     </a>
@@ -33,13 +34,13 @@
                 </header>
                 <div class="hero__content">
                     <div class="hero__text-section">
-                        <h1 class="hero__title">
+                        <h1 class="hero__title hero__title-services">
                             Услуги
                         </h1>
                         <ul class="transit">
-                            <li> <a href="#" class="transit__link">Главная</li>
-                            /
-                            <li> <a href="#" class="transit__link transit__link--active">Услуги</li>
+                            <li class="transit__item"> <a href="#" class="transit__link">Главная</a></li>
+                            <li class="transit__item"> / </li>
+                            <li class="transit__item"> <a href="#" class="transit__link transit__link--active"></a>Услуги</li>
                         </ul>
                     </div>
                 </div>
@@ -49,38 +50,42 @@
             <div class="container">
                 <ul class="services__list">
                     <li class="services__item">
-                        <img src="#" alt="водопад" class="services__item-img">
-                        <h3>
-                            Водопад Янг-бей
-                        </h3>
-                        <p>
-                            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. 
-                        </p>
-                        <a href="#" class="btn">Подробнее</a>
+                        <img src="/img/waterfall.png" alt="водопад" class="services__item-img">
+                        <div class="services__item-text">
+                            <h3>
+                                Водопад Янг-бей
+                            </h3>
+                            <p>
+                                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. 
+                            </p>
+                            <a href="#" class="btn btn_type_short">Подробнее</a>
+                        </div>
                     </li>
                     <li class="services__item">
-                        <img src="#" alt="остров" class="services__item-img">
-                        <h3>
-                            Остров обезьян
-                        </h3>
-                        <p>
-                            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. 
-                        </p>
-                        <a href="#" class="btn">Подробнее</a>
+                        <img src="/img/monkeys.png" alt="остров" class="services__item-img">
+                        <div class="services__item-text">
+                            <h3>
+                                Остров обезьян
+                            </h3>
+                            <p>
+                                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. 
+                            </p>
+                            <a href="#" class="btn btn_type_short">Подробнее</a>
+                        </div>
                     </li>
                 </ul>
-                <div class="pagination">
+                <div class="pagination pagination__services">
                     <div class="pagination__title">
                         Страница 1 из 7
                     </div>
-                    <ul class="pagination__list">
-                            <li class="pagination__item"><a href="#" class="pagination__link">1</a></li>
-                            <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
-                            <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
-                            <li class="pagination__item"><a href="#" class="pagination__link">4</a></li>
-                            <li class="pagination__item"><a href="#" class="pagination__link">5</a></li>
-                            <li class="pagination__item"><a href="#" class="pagination__link">6</a></li>
-                            <li class="pagination__item"><a href="#" class="pagination__link">7</a></li>
+                    <ul class="pagination__list pagination__list-services">
+                            <li class="pagination__item"><a href="#" class="pagination__link pagination__link-services">1</a></li>
+                            <li class="pagination__item"><a href="#" class="pagination__link pagination__link-services">2</a></li>
+                            <li class="pagination__item"><a href="#" class="pagination__link pagination__link-services">3</a></li>
+                            <li class="pagination__item"><a href="#" class="pagination__link pagination__link-services">4</a></li>
+                            <li class="pagination__item"><a href="#" class="pagination__link pagination__link-services">5</a></li>
+                            <li class="pagination__item"><a href="#" class="pagination__link pagination__link-services">6</a></li>
+                            <li class="pagination__item"><a href="#" class="pagination__link pagination__link-services">7</a></li>
                     </ul>
                 </div>
             </div>
@@ -89,20 +94,20 @@
             <div class="container">
                 <h2 class="main-title">Партнеры</h2>
                 <ul class="partners__list">
-                    <li class="partners__item"><a href="#" class="partners__link"><img src="" alt="победа" class="partners__img"></a></li>
-                    <li class="partners__item"><a href="#" class="partners__link"><img src="" alt="S7 airlines" class="partners__img"></a></li>
-                    <li class="partners__item"><a href="#" class="partners__link"><img src="" alt="слетать.ру" class="partners__img"></a></li>
-                    <li class="partners__item"><a href="#" class="partners__link"><img src="" alt="Lufthansa" class="partners__img"></a></li>
-                    <li class="partners__item"><a href="#" class="partners__link"><img src="" alt="airBaltic" class="partners__img"></a></li>
-                    <li class="partners__item"><a href="#" class="partners__link"><img src="" alt="Pegasus" class="partners__img"></a></li>
-                    <li class="partners__item"><a href="#" class="partners__link"><img src="" alt="UralAirlines" class="partners__img"></a></li>
-                    <li class="partners__item"><a href="#" class="partners__link"><img src="" alt="Pegas" class="partners__img"></a></li>
+                    <li class="partners__item"><a href="#" class="partners__link"><img src="/img/pobeda.png" alt="победа" class="partners__img"></a></li>
+                    <li class="partners__item"><a href="#" class="partners__link"><img src="/img/s7.png" alt="S7 airlines" class="partners__img"></a></li>
+                    <li class="partners__item"><a href="#" class="partners__link"><img src="/img/lets-fly.png" alt="слетать.ру" class="partners__img"></a></li>
+                    <li class="partners__item"><a href="#" class="partners__link"><img src="/img/lufthansa.png" alt="Lufthansa" class="partners__img"></a></li>
+                    <li class="partners__item"><a href="#" class="partners__link"><img src="/img/airbaltic.png" alt="airBaltic" class="partners__img"></a></li>
+                    <li class="partners__item"><a href="#" class="partners__link"><img src="/img/pegasus.png" alt="Pegasus" class="partners__img"></a></li>
+                    <li class="partners__item"><a href="#" class="partners__link"><img src="/img/ural.png" alt="UralAirlines" class="partners__img"></a></li>
+                    <li class="partners__item"><a href="#" class="partners__link"><img src="/img/pegas.png" alt="Pegas" class="partners__img"></a></li>
                 </ul>
             </div>
         </section>
-        <footer class="footer-container">
+        <footer class="footer-container footer-container__services">
             <div class="container">
-                <div class="footer">
+                <div class="footer footer__services">
                     <div class="footer-container__content"></div>
                     <a href="#" class="logo">
                         <img src="https://github.com/multiair34/air-asia/blob/main/img/logo.png?raw=true" alt="logo-AirAsia" class="logo__img">

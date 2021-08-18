@@ -39,30 +39,13 @@ p {
     width: 1140px;
 }
 
-.btn {
-    font-size: 14px;
-    background: #F5170E;
-    border-radius: 35px;
-    padding: 18px 40px;
-    color: #FFFFFF;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-}
 
-.btn:hover {
-    background: #DA0100;
-}
+/*     Для этого проекта      */
 
-.btn_type_short {
-    color: #F5170E;
-    background: #FFFFFF;
-    border: 1px solid #F5170E;
-    padding: 18px 30px;
-}
-
-.btn_type_short:hover {
-    background: #F5170E;
-    color: #FFFFFF;
+.wrapper__services {
+    background: url(/img/headline.png) center top no-repeat;
+    min-height: 412px;
+    background-color: #fff;
+    color: #000000;
+    ;
 }

@@ -28,3 +28,12 @@
     font-weight: 700;
     margin-bottom: 50px;
 }
+
+.hero__services {
+    margin: 0;
+    margin-bottom: 110px;
+}
+
+.hero__title-services {
+    margin-bottom: 70px;
+}

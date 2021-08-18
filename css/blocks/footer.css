@@ -16,3 +16,12 @@
     flex-basis: 500px;
     justify-content: space-evenly;
 }
+
+.footer-container__services {
+    background-color: #001821;
+    color: #fff;
+}
+
+.footer__services {
+    margin-top: 0;
+}

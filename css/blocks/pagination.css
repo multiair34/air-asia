@@ -32,3 +32,17 @@
     display: inline-block;
     padding-bottom: 20px;
 }
+
+.pagination__services {
+    margin-bottom: 95px;
+}
+
+.pagination__link-services {
+    color: #000000;
+}
+
+.pagination__link-services:hover {
+    color: #fff;
+    background: #F5170E;
+}
+
