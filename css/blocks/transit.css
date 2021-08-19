@@ -1,5 +1,6 @@
 .transit {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .transit__item {
