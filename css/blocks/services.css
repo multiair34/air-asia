@@ -1,12 +1,16 @@
+.services {
+    margin-bottom: 95px;
+}
+
 .services__item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 30px;
 }
 
 .services__item-img {
-    margin-bottom: 50px;
     margin-right: 56px;
+    
 }
 
 .services__item-text h3{
@@ -23,5 +27,13 @@
 }
 
 .services__item-text {
-    padding-bottom: 50px;
+    padding-bottom: 0px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
+}
+
+.services__list {
+    margin-bottom: 30px;
 }

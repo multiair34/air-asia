@@ -1,11 +1,12 @@
 .partners {
     background-color: #F4F5F5;
+    padding-top: 80px;
+    padding-bottom: 120px;
 }
 
 .partners h2 {
     font-size: 48px;
     font-weight: 700;
-    padding-top: 80px;
     margin-bottom: 100px;
 }
 
@@ -13,7 +14,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 120px;
 }
 
 .partners__item {
