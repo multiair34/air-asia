@@ -1,0 +1,19 @@
+.transit {
+    display: flex;
+}
+
+.transit__item {
+    display: flex;  
+    font-size: 14px;
+    color: #9A9A9A;
+    text-decoration-line: underline;
+    padding-right: 5px;
+}
+
+.transit__item:nth-last-child(2) {
+    text-decoration: none;
+}
+
+.transit__item:nth-last-child(1) {
+    font-weight: 700;
+}

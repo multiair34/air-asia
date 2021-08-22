@@ -1,0 +1,27 @@
+.footer-container__content {
+    border-top: 1px  solid #FFFFFF;
+    opacity: 0.1;
+    
+}
+
+.footer {
+    height: 146px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts,.footer__col {
+    display: flex;
+    flex-basis: 500px;
+    justify-content: space-evenly;
+}
+
+.footer-container__services {
+    background-color: #001821;
+    color: #fff;
+}
+
+.footer__services {
+    margin-top: 0;
+}

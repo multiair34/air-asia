@@ -1,0 +1,22 @@
+.partners {
+    background-color: #F4F5F5;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.partners h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partners__item {
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
