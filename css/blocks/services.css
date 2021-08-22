@@ -1,16 +1,12 @@
-.services {
-    margin-bottom: 90px;
-}
-
 .services__item {
     display: flex;
+    align-items: center;
     margin-bottom: 30px;
-    padding-bottom: 30px;
 }
 
 .services__item-img {
+    margin-bottom: 50px;
     margin-right: 56px;
-    object-fit: cover;
 }
 
 .services__item-text h3{
@@ -26,12 +22,6 @@
     line-height: 30px;
 }
 
-.services__item:last-child {
-    padding: 0;
-    margin: 0;
+.services__item-text {
+    padding-bottom: 50px;
 }
-
-.services__list {
-    margin-bottom: 50px;
-}
-
