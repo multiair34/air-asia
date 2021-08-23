@@ -46,5 +46,14 @@ p {
     min-height: 412px;
     background-color: #fff;
     color: #000000;
-    ;
 }
+
+.wrapper__start {
+    margin: 0;
+    margin: 356px 665px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+

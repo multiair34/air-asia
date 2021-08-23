@@ -40,3 +40,18 @@
     margin-bottom: 70px;
     margin-top: 0px;
 }
+
+.hero_start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 591px;
+    min-height: 248px;
+    margin-bottom: 0;
+    background: url(/img/shades.png);
+}
+
+.hero_start p {
+    font-size: 18px;
+}
