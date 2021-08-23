@@ -1,0 +1,25 @@
+.reviews__list {
+    display: flex;
+}
+
+.reviews__item {
+    background: #F4F5F5;
+    border-radius: 5px;
+}
+
+.reviews__item-info h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #1A1B1E;
+}
+
+.reviews__item-geo {
+    color: #303030;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 10px 18px;
+    background: #B9EAE4;
+    border-radius: 35px;
+}
+
