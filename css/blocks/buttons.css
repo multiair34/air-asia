@@ -12,6 +12,7 @@
 
 .btn:hover {
     background: #DA0100;
+    transition: 1s;
 }
 
 .btn_type_short {
@@ -24,10 +25,25 @@
 .btn_type_short:hover {
     background: #F5170E;
     color: #FFFFFF;
+    transition: 1s;
 }
 
 .btn_start {
     font-size: 14px;
     font-weight: 700;
     padding: 18px 58px;
+}
+
+.btn__comment {
+    margin-right: 18px;
+    background: #8E8E8E;
+}
+
+.btn__comment:hover {
+    background: #2B2B2B;
+    transition: 1s;
+}
+
+.btn__comment:nth-last-child(1) {
+    margin-right: 0;
 }

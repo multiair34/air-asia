@@ -17,12 +17,11 @@
 @import url(./blocks/transit.css);
 @import url(./blocks/services.css);
 @import url(./blocks/partners.css);
-/*@import url(./blocks/animation.css);*/
-@import url(./blocks/anim.css);
-@import url(./reviews.css);
-/*
-@import url(/air-asia/css/blocks);
-@import url(/air-asia/css/blocks);
+@import url(./blocks/animation.css);
+/*@import url(./blocks/anim.css);*/
+@import url(./blocks/reviews.css);
+@import url(./blocks/banner.css);
+@import url(./blocks/comment.css);
 @import url(/air-asia/css/blocks);
 @import url(/air-asia/css/blocks);
 @import url(/air-asia/css/blocks);
