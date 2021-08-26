@@ -62,12 +62,17 @@
     padding-bottom: 34px;
 }
 
-.reviews__item-info h4 {
+.reviews__item-cont a {
     font-size: 24px;
     font-weight: 700;
     line-height: 42px;
     color: #1A1B1E;
     padding-right: 7px;
+}
+
+.reviews__item-cont a:hover {
+    color: #2E77A4;
+    text-decoration-line: underline;
 }
 
 .reviews__item-cont {

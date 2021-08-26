@@ -12,7 +12,7 @@
 
 .btn:hover {
     background: #DA0100;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .btn_type_short {
@@ -25,7 +25,7 @@
 .btn_type_short:hover {
     background: #F5170E;
     color: #FFFFFF;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .btn_start {
@@ -41,7 +41,7 @@
 
 .btn__comment:hover {
     background: #2B2B2B;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .btn__comment:nth-last-child(1) {

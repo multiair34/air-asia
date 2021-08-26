@@ -2,6 +2,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    position: relative;
 }
 
 .socials__item:last-child  {
@@ -13,6 +14,107 @@
     text-decoration: none;
     width: 36px;
     height: 36px;
+}
+
+.socials__item:nth-child(1)::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(/icons/css_sprites.png) -66px -122px;
+}
+
+.socials__item:nth-child(2)::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(/icons/css_sprites.png) -10px -122px;
+}
+
+.socials__item:nth-child(3)::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(/icons/css_sprites.png) -122px -10px;
+}
+
+.socials__item:nth-child(4)::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(/icons/css_sprites.png) -122px -66px;
+}
+
+
+.socials__item:hover::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(/icons/css_sprites.png) -10px -66px;
+    transition: 0.3s;
+}
+
+.socials__item:nth-child(2):hover::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(/icons/css_sprites.png) -66px -66px;
+    transition: 0.3s;
+}
+
+.socials__item:nth-child(3):hover::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(/icons/css_sprites.png) -10px -10px;
+    transition: 0.3s;
+}
+
+.socials__item:nth-child(4):hover::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(/icons/css_sprites.png) -66px -10px;
+    transition: 0.3s;
 }
 
 .socials {
