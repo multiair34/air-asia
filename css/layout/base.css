@@ -56,5 +56,12 @@ p {
     align-items: center;
 }
 
-.wrapper__start:hover {
+.wrapper_login {
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    width: auto;
+    background: url(https://github.com/multiair34/air-asia/blob/main/img/bg.png?raw=true) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }

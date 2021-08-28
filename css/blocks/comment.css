@@ -100,8 +100,9 @@
     justify-content: flex-end;
 }
 
-.comment__but input {
+.comment__but button {
     margin-bottom: 96px;
+    border: none;
 }
 
 .comment-quest__item:hover {
