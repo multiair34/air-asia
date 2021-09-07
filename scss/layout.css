@@ -1,0 +1,49 @@
+@import url(/scss/_base);
+@import url(/scss/_normalise);
+@import url(/css/layout/fonts.css);
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.wrapper .main-page-wrapper {
+  width: auto;
+  background: url(https://github.com/multiair34/air-asia/blob/main/img/1.png?raw=true) center top no-repeat, url(https://github.com/multiair34/air-asia/blob/main/img/2.png?raw=true) center bottom 165px no-repeat;
+  overflow: hidden;
+}
+
+.wrapper .wrapper__services {
+  min-height: 412px;
+  background-color: #fff;
+  color: #000000;
+}
+
+.wrapper .wrapper_login {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: auto;
+  background: url(https://github.com/multiair34/air-asia/blob/main/img/bg.png?raw=true) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.wrapper .wrapper__start {
+  margin: 0;
+  margin: 356px 665px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=layout.css.map */
