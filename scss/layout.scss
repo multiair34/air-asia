@@ -1,26 +1,28 @@
-@import url(/scss/_base);
-@import url(/scss/_normalise);
-@import url(/css/layout/fonts.css);
+@import "./base";
+@import "./_normalise.scss";
+@font-face {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap);
+}
 
 .container{
     margin: 0 auto;
     width: 1140px;
+
+    &-banner {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .wrapper {
-    .main-page-wrapper {
-        width: auto;
-        background: url(https://github.com/multiair34/air-asia/blob/main/img/1.png?raw=true) center top no-repeat, url(https://github.com/multiair34/air-asia/blob/main/img/2.png?raw=true)  center bottom 165px no-repeat;
-        overflow: hidden;
-    }
-
-    .wrapper__services {
+    &__services {
         min-height: 412px;
         background-color: #fff;
         color: #000000;
     }
 
-    .wrapper_login {
+    &_login {
         height: 100vh;
         display: flex;
         align-items: stretch;
@@ -30,7 +32,7 @@
         overflow: hidden;
     }
     
-    .wrapper__start {
+    &__start {
         margin: 0;
         margin: 356px 665px;
         display: flex;
@@ -40,3 +42,10 @@
     
 }
 
+.main-page-wrapper {
+    width: auto;
+    background: url(https://github.com/multiair34/air-asia/blob/main/img/1.png?raw=true) center top no-repeat, url(https://github.com/multiair34/air-asia/blob/main/img/2.png?raw=true)  center bottom 165px no-repeat;
+    overflow: hidden;
+}
+
+@import "./_index.scss";

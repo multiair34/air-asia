@@ -1,4 +1,4 @@
-.news__list {
+/* .news__list {
     display: flex;
     margin-bottom: 50px;
     justify-content: space-around;
@@ -21,8 +21,8 @@
 .news__item:last-child {
     margin-right: 0px;
 }
-
-.news__img {
+ */
+/* .news__img {
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -35,8 +35,8 @@
 .news__img:last-child {
     margin-left: 10px;
 }
-
-.news__container {
+ */
+/* .news__container {
     padding: 25px 50px;
     max-height: 180px;
     z-index: 1;
@@ -60,4 +60,4 @@
     display: inline-block;
     margin: 0;
     padding-bottom: 31px;
-}
+} */
