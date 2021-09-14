@@ -385,7 +385,8 @@ template {
 
 .container {
   margin: 0 auto;
-  width: 1140px;
+  max-width: 1170px;
+  padding: 0 15px;
 }
 
 .container-banner {
@@ -404,7 +405,7 @@ template {
 }
 
 .wrapper_login {
-  height: 100vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -435,7 +436,62 @@ template {
 .main-page-wrapper {
   width: auto;
   background: url(https://github.com/multiair34/air-asia/blob/main/img/1.png?raw=true) center top no-repeat, url(https://github.com/multiair34/air-asia/blob/main/img/2.png?raw=true) center bottom 165px no-repeat;
+  background-size: 100%;
   overflow: hidden;
+}
+
+@media (max-width: 1170px) {
+  .container {
+    max-width: 970px;
+  }
+  .offer__item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .offer__item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+  .offer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+  }
+  .offer__item {
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+  .offer__item:last-child {
+    margin-right: 0;
+  }
+  .news__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .news__item {
+    min-width: 100%;
+    min-height: 100%;
+  }
 }
 
 .hero {
@@ -518,7 +574,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 120px;
+  min-height: 120px;
   margin-bottom: 90px;
 }
 
@@ -528,8 +584,8 @@ template {
 }
 
 .logo__img {
-  width: 85px;
-  height: 36px;
+  max-width: 85px;
+  max-height: 36px;
 }
 
 .nav-menu {
@@ -743,6 +799,7 @@ template {
 
 .offer__img {
   margin-bottom: 0px;
+  width: 100%;
 }
 
 .offer_desc {
@@ -835,8 +892,8 @@ template {
 
 .news__img {
   display: inline-block;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -899,8 +956,8 @@ template {
   line-height: 32px;
   font-weight: 700;
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -943,8 +1000,8 @@ template {
 
 .about-us::before {
   content: "";
-  width: 490px;
-  height: 505px;
+  min-width: 490px;
+  max-height: 505px;
   background: url(https://github.com/multiair34/air-asia/blob/main/img/gates.png?raw=true) center center/cover no-repeat;
   border-radius: 5px;
 }
@@ -952,8 +1009,8 @@ template {
 .about-us__wrap {
   background: url("https://github.com/multiair34/air-asia/blob/main/img/mountains.png?raw=true") center center/cover no-repeat;
   padding: 68px 202px 164px 81px;
-  width: 785px;
-  height: 455px;
+  min-width: 785px;
+  min-height: 455px;
   margin-left: -140px;
   margin-top: 95px;
 }
@@ -991,7 +1048,7 @@ template {
 }
 
 .footer {
-  height: 146px;
+  min-height: 146px;
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1119,8 +1176,8 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: url(https://github.com/multiair34/air-asia/blob/main/icons/css_sprites.png?raw=true) -66px -122px;
 }
 
@@ -1132,8 +1189,8 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: url(https://github.com/multiair34/air-asia/blob/main/icons/css_sprites.png?raw=true) -10px -122px;
 }
 
@@ -1145,8 +1202,8 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: url(https://github.com/multiair34/air-asia/blob/main/icons/css_sprites.png?raw=true) -122px -10px;
 }
 
@@ -1158,8 +1215,8 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: url(https://github.com/multiair34/air-asia/blob/main/icons/css_sprites.png?raw=true) -122px -66px;
 }
 
@@ -1171,8 +1228,8 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: url(https://github.com/multiair34/air-asia/blob/main/icons/css_sprites.png?raw=true) -10px -66px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1186,8 +1243,8 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: url(https://github.com/multiair34/air-asia/blob/main/icons/css_sprites.png?raw=true) -66px -66px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1201,8 +1258,8 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: url(https://github.com/multiair34/air-asia/blob/main/icons/css_sprites.png?raw=true) -10px -10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1216,8 +1273,8 @@ template {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: url(https://github.com/multiair34/air-asia/blob/main/icons/css_sprites.png?raw=true) -66px -10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1366,8 +1423,8 @@ template {
 }
 
 .comment-form__text {
-  width: 556px;
-  height: 65px;
+  min-width: 556px;
+  min-height: 65px;
   border-radius: 5px;
   background: #fff;
   margin-right: 28px;
@@ -1378,8 +1435,8 @@ template {
 }
 
 .comment-form__text:nth-child(2) {
-  width: 556px;
-  height: 65px;
+  min-width: 556px;
+  min-height: 65px;
   border-radius: 5px;
   background: #fff;
   border: 0;
@@ -1392,8 +1449,8 @@ template {
 }
 
 .comment-form__textarea {
-  width: 1140px;
-  height: 235px;
+  min-width: 1140px;
+  min-height: 235px;
   font-size: 18px;
   border-radius: 5px;
   border: 1px solid #fff;
