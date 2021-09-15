@@ -1046,4 +1046,80 @@
         align-items: center;
         flex-direction: column;
     }
+
+    .reviews__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__services {
+        margin-bottom: 50px;
+    }
+
+    .container-banner {
+        flex-direction: column;
+    }
+    
+    .banner__img {
+        max-width: 100%;
+    }
+
+    .banner__text {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .reviews__item-socials {
+        padding-bottom: 10px;
+    }
+
+    .comment {
+        font-size: 38px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .comment-form__text {
+        min-width: 100%;
+    }
+
+    .comment-form__text:nth-child(2) {
+        min-width: 100%;
+    }
+
+    .comment-form__textarea {
+        min-width: 100%;
+    }
+
+    .comment-quest {
+        flex-direction: column;
+    }
+
+    .comment__but {
+        flex-direction: column;
+    }
+
+    .transit {
+        display: none;
+    }
+
+    .reviews__item-img {
+        padding-right: 10px;
+    }
+
+    .reviews__item-info {
+        padding-left: 10px;
+    }
+
+    .btn__comment {
+        margin-right: 0;
+    }
+
+    .comment__but button {
+        margin-bottom: 20px;
+    }
+
+    .comment__but button:last-child {
+        margin-bottom: 60px;
+    }
 }
