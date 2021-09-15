@@ -929,3 +929,121 @@
     }
 }
 
+@media (max-width: 1170px) {
+    .container {
+      max-width: 970px;
+    }
+
+    .offer__item {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+      max-width: 750px;
+    }
+
+    .offer__item {
+        max-width: 100%;
+    }
+}
+  
+  
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+      }
+
+    .offer__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    .offer__item {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .offer__item:last-child {
+        margin-right: 0;
+    }
+
+    .news__img {
+        margin-left: 3000px;
+    }
+    .news__list {
+        flex-wrap: wrap;
+        min-width: 100%;
+        min-height: 100%;
+        background: #02303a;
+        border-radius: 20px;
+    }
+
+    .news__item {
+        min-width: 100%;
+        min-height: 300px;
+        background: #02303a;
+        border-radius: 20px;
+        align-items: flex-start;
+        margin-right: 0px;
+    }
+
+    .news__item:last-child {
+        border-top: #2E77A4 1px solid;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .hero {
+        margin-bottom: 120px;
+    }
+
+    .hero__text-section {
+        align-items: center;
+    }
+
+    .hero__title {
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .main-title {
+        text-align: center;
+    }
+
+    .about-us {
+        display: block;
+    }
+
+    .about-us::before {
+        content: none;
+    }
+
+    .about-us__wrap {
+        content: none;
+        padding: 15px 15px;
+        margin: 0;
+        min-width: auto;
+        min-height: auto;
+        border-radius: 20px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__col {
+        align-items: center;
+        flex-direction: column;
+    }
+}
