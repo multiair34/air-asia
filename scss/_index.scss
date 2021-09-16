@@ -937,6 +937,43 @@
     .offer__item {
         max-width: 100%;
     }
+
+    .news {
+        &__list {
+            justify-content: normal;
+            flex-wrap: wrap;
+        }
+
+        &__img {
+            max-width: 100%;
+            flex: 1 0 auto;
+        }
+
+        &__container {
+            max-width: 557px;
+        }
+    }
+
+    .hero {
+        margin-bottom: 120px;
+    }
+
+    .contacts {
+        &__phone {
+            font-size: 22px;
+        }
+    }
+
+    .about-us {
+        &::before {
+            min-width: 420px;
+        }
+
+        &__wrap {
+            padding: 68px 202px 85px 81px;
+            min-width: 684px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -946,6 +983,62 @@
 
     .offer__item {
         max-width: 100%;
+    }
+
+    .hero {
+        &__title {
+            font-size: 54px;
+            font-weight: 700;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        &__text-section {
+            align-items: center;
+        }
+    }
+
+    .offer {
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: space-around;
+        }
+
+        &__item {
+            max-width: 70%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .main-title {
+        text-align: center;
+    }
+
+    .news {
+        &__list {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item {
+            margin-right: 0;
+        }
+    }
+    
+    .about-us {
+        &__wrap {
+            min-width: 400px;
+            padding: 46px 29px 65px 37px;
+        }
+    }
+
+    .nav-menu {
+        flex-basis: 420px;
     }
 }
   
@@ -1121,5 +1214,28 @@
 
     .comment__but button:last-child {
         margin-bottom: 60px;
+    }
+
+    .comment-quest {
+        span {
+            padding-right: 0;
+            white-space: normal;
+        }
+    }
+
+    .services__item {
+        flex-direction: column;
+
+        &-img {
+            max-width: 100%;
+            margin-right: 0;
+        }
+    }
+
+    .partners {
+        &__img {
+            max-width: 100%;
+
+        }
     }
 }
