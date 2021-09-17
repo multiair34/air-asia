@@ -941,6 +941,16 @@
     }
 }
 
+.contacts {
+    &__img::before {
+        display: block;
+        content: '8 800 555 35 35';
+        font-size: 22px;
+        font-weight: normal;
+        font-style: "Open Sans", sans-serif;
+    }
+}
+
 @media (max-width: 1170px) {
     .container {
       max-width: 970px;
@@ -1099,6 +1109,17 @@
             display: none;
         }
     }
+
+    .contacts {
+        &__img::before {
+            display: block;
+            content: '8 800 555 35 35';
+            font-size: 22px;
+            font-weight: normal;
+            font-style: "Open Sans", sans-serif;
+        }
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -1217,6 +1238,16 @@
 
         &__work {
             display: none;
+        }
+    }
+
+    .contacts {
+        &__img::before {
+            display: block;
+            content: '8 800 555 35 35';
+            font-size: 22px;
+            font-weight: normal;
+            font-style: "Open Sans", sans-serif;
         }
     }
 }
@@ -1544,15 +1575,28 @@
     }
 
     .logo {
+        
         &__img {
             position: relative;
-
         }
         margin-left: 33%;
         margin-right: 20%;
     }
-    /*
-    .container {
-        border-top: #303030 50px solid;
-    }*/
+
+    .contacts {
+        &__img::before {
+            display: none;
+        }
+        &__img::after {
+            display: block;
+            content: url(/img/free-icon-telephone-86663.png);
+            font-size: 22px;
+            font-weight: normal;
+            font-style: "Open Sans", sans-serif;
+        }
+    }
+    
+    .footer-container__content + .logo {
+        margin: 0;
+    }
 }
