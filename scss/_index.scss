@@ -933,6 +933,14 @@
     display: none;
 }
 
+.contacts {
+        
+
+    &__work {
+        display: none;
+    }
+}
+
 @media (max-width: 1170px) {
     .container {
       max-width: 970px;
@@ -1083,6 +1091,14 @@
     .nav-menu__check {
         display: none;
     }
+
+    .contacts {
+        
+
+        &__work {
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -1194,6 +1210,14 @@
 
     .nav-menu__check {
         display: none;
+    }
+
+    .contacts {
+        
+
+        &__work {
+            display: none;
+        }
     }
 }
   
@@ -1419,25 +1443,33 @@
     }
 
     .nav-menu__back {
-        height: 20px;
-        width: 5px;
+        height: 4px;
+        width: 20px;
         background-color: #8E8E8E;
         position: fixed;
-        top: 5px;
+        top: 15px;
         right: 360px;
         bottom: 440px;
-        left: 20px;
+        left: 30px;
         transition: background-color .3s;
         z-index: 1;
 
         &::after {
             background-color: #8E8E8E;
             content: "";
-            height: 5px; 
+            height: 4px; 
             width: 20px;
-            position: absolute; 
-            left: -7px; 
-            top: 8px;
+            position: absolute;  
+            top: 7px;
+        }
+
+        &::before {
+            background-color: #8E8E8E;
+            content: "";
+            height: 4px; 
+            width: 20px;
+            position: absolute;  
+            top: 14px;
         }
     }
 
@@ -1482,12 +1514,47 @@
     .nav-menu__check:checked~.nav-menu__list {transform: translateX(0);}
 
     .contacts {
-        flex-basis: 160%;
+        
 
-        &__phone {
-            font-size: 20px;
+        &__work {
+            display: none;
         }
     }
-    
 
+    
+    .header {
+        align-items: center;
+        flex-direction: column;
+        max-height: 40px;
+        background: #303030;
+        background-size: 10%;
+        min-height: 0;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .hero {
+        border-top: #303030 10px solid;
+
+        .container {
+            padding: 0;
+        }
+    }
+
+    .main-page-wrapper {
+        background-size: 200%;
+    }
+
+    .logo {
+        &__img {
+            position: relative;
+
+        }
+        padding-left: 33%;
+        margin-right: 20%;
+    }
+    /*
+    .container {
+        border-top: #303030 50px solid;
+    }*/
 }
